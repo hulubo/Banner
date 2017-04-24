@@ -42,7 +42,7 @@ var nextIndex = function(button) {
 var showImage = function(index) {
     console.log('index', index)
     // 得到下一张图片的选择器
-    var n = (-600) * (index)
+    var n = (-1200) * (index)
     e('.slide').style.transform = `translateX(${n}px)`
 }
 

@@ -2,20 +2,20 @@
         .container {
           margin: auto;
           text-align: center;
-          width: 600px;
+          width: 1200px;
           overflow: hidden;
           position: relative;
         }
 
         .slide {
-          width: 2400px;
-          height: 350px;
+          width: 4800px;
+          height: 600px;
           transition: transform 1.2s;
         }
 
         .slide img {
-          width: 600px;
-          height: 350px;
+          width: 1200px;
+          height: 600px;
           float: left;
         }
 
@@ -29,7 +29,7 @@
         .next {
             position: absolute;
             color: white;
-            font-size: 1rem;
+            font-size: 1.5rem;
             cursor: pointer;
             background-color: #808080;
             padding: 0.8rem 0.5rem;
@@ -51,7 +51,7 @@
         .index {
           position: absolute;
           bottom: 3%;
-          left: 270px;
+          left: 600px;
         }
 
         .index span {
