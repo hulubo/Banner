@@ -67,8 +67,19 @@ var bindEventSlide = function() {
     })
 }
 
+var play = function() {
+  var container = e('.container')
+  var button = e('.next.vertical-center.right')
+  setInterval(function(){
+    //模拟点击
+      button.click()
+  }, 4000)
+
+}
+
 var __main = function() {
     bindEventSlide()
+    play()
 }
 
 __main()
