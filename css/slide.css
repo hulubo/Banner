@@ -1,0 +1,70 @@
+
+        .container {
+          margin: auto;
+          text-align: center;
+          width: 600px;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .slide {
+          width: 2400px;
+          height: 350px;
+          transition: transform 1.2s;
+        }
+
+        .slide img {
+          width: 600px;
+          height: 350px;
+          float: left;
+        }
+
+        .left {
+            left: 0;
+        }
+        .right{
+            right:0;
+        }
+
+        .next {
+            position: absolute;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: #808080;
+            padding: 0.8rem 0.5rem;
+            text-align: center;
+            opacity: 0.5;
+        }
+
+        .next:hover {
+            opacity:0.8 !important;
+        }
+
+
+        .vertical-center {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .index {
+          position: absolute;
+          bottom: 3%;
+          left: 270px;
+        }
+
+        .index span {
+          cursor: pointer;
+          float: left;
+          border: 1px solid #fff;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: #333;
+          margin-right: 5px;
+        }
+
+        .on {
+          background:red !important;
+        }
